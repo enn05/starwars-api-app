@@ -23,11 +23,16 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+h1 {
+  /* color: #339989; */
+  font-weight: 800;
+  -webkit-text-stroke: 1px #7EDD65;
+   color: #339989;
+   text-shadow:
+       3px 3px 0 #7EDD65,
+     -1px -1px 0 #7EDD65,  
+      1px -1px 0 #7EDD65,
+      -1px 1px 0 #7EDD65,
+       1px 1px 0 #7EDD65;
 }
